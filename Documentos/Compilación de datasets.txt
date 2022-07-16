@@ -20,6 +20,8 @@ https://www.kaggle.com/code/namanmanchanda/asl-detection-99-accuracy/data
 
 https://www.kaggle.com/datasets/mrgeislinger/asl-rgb-depth-fingerspelling-spelling-it-out
 
+https://github.com/beingaryan/Sign-To-Speech-Conversion
+
 
 Chileno:
 
