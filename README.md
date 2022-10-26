@@ -1,16 +1,17 @@
-# <h1>Traductor de lengua de señas a audio y texto</h1>
-Aplicación para dispositivos Android que permitirá traducir lengua de señas (ASL o LSA) a audio y texto.
+# <h1>Mudeitor - Traductor de lengua de señas</h1>
+Aplicación para dispositivos Android que permite traducir lengua de señas a audio y texto.
 
 ## Objetivo
- El objetivo de este proyecto es crear la primera aplicación en lograr una eficiente tradución de la lengua de señas a distintos idiomas, tales como español o inglés. Esto permitirá que las personas sordas puedan counicarse sin problemas con el resto de la sociedad, rompiendo con una dura barrera que los desplaza de la misma.
+ El objetivo de este proyecto es crear la primera aplicación capaz de lograr una eficiente tradución de la lengua de señas a distintos idiomas, tales como español o inglés. Esto permitirá que las personas sordas puedan counicarse sin problemas con el resto de la sociedad, rompiendo con una dura barrera que los desplaza de la misma.
 
-## ¿Como funcionará?
- La aplicación capturará imágenes mediante la utilización de OpenCV2 (https://opencv.org) y luego las comparará con un dataset mediante la utilización de TensorFlow Lite (https://www.tensorflow.org/lite) el cual realizará una detección de objetos para dar como resultado la letra/palabra que el usuario esta diciendo. Luego, esta será mostrada por pantalla y reproducida mediante una voz.
+## ¿Como funciona?
+ La aplicación, desarrollada para dispositivos Android, captura imágenes mediante la utilización de OpenCV2 (https://opencv.org) y luego las compara con un dataset mediante la utilización de TensorFlow Lite (https://www.tensorflow.org/lite) el cual realiza una detección de objetos, que detecta la mano y la seña, para dar como resultado la letra/palabra que el usuario está comunicando. Luego, esta es mostrada por pantalla y, en el caso de quererlo, reproducida mediante una voz. Podés descargarla ingresando al siguiente enlace: https://drive.google.com/u/1/uc?id=1cJLuYD6JhbA-pUIzwYXGucmHT0mFDkf-&export=download&confirm=t&uuid=e866c119-ee10-4f5c-b3c3-74846cdb422e&at=ALAFpqz0yQRVAw94SN9oMjHOeEXp:1666709143005
 
-## ¿Como va a estar compuesto el dataset?
- Esta aplicación va a tener la opción de seleccionar el dataset deseado a utilizar, habrá dos opciones. Uno para ASL (American Sign Language), compuesto por todo el alfabeto, y uno para LSA (Lengua de Señas Argentina), compuesto por 16 de las palabras más utilizadas. Lamentablemente, los datasets son un poco "cortos" debido a la gran difiicultad para su creación.
- El dataset para ASL será creado por nosotros mediante la compilación de diversos datasets encontrados en internet, principalmente en Kaggle. En cambio, el dataset utilizado para LSA será el siguiente: http://facundoq.github.io/datasets/lsa16/
+## ¿Hay una página web?
+ Si, la hay. La misma describe de manera informativa el proyecto y posibilita su descarga, además, posee una sección de comentarios que nos permitirá saber la opinión de los usuarios y tener una noción cuales son las funciones que quieren que agreguemos en el futuro. Si te interesa visitarla: https://mud3itor.000webhostapp.com/
 
-## ¿Habrá una página web?
-
- Si, la habrá pero esta solo funcionará de manera informativa puesto que la creación del proyecto en formato web era muy compleja y no poseemos del tiempo suficiente, por lo tanto, el proyecto principal será para Android y la página web explicará el mismo (además de, obviamente, permitir su descarga).
+## ¿Como está formado el equipo de desarrollo?
+ El equipo de desarrollo está integrado por 5 integrantes y un colaborador. El "Project Manager", Lucas Conde, es el encargado del desarrollo de la aplicación, administrar la base de datos y distribuir las diferentes tareas a los miembros del grupo. Por otro lado, también tenemos a Juan Lopez y Bruno Typek, los cuales se encargan del diseño de la página web y la toma de imágenes para la misma. También está Martin Castillo, quien también se encarga de la página web y de la redacción de la documentación (es posible leerla en el apartado de "Documentos") y de los textos visibles en la página. Por útlimo, tenemos a Maia Vaccarili que se encargó de tomar imágenes para el dataset y colaborar con distitnas tareas a lo largo del desarrollo. Como mención especial, queremos destacar la colaboración de Facundo Uthurralt, que se encaregó de diseñar todos los logos y fondos.
+ 
+ ## ¿Como podés contactarnos?
+  Si querés contactarnos podés hacerlo mandando un mail a mudeitor.app@gmail.com o llamando / mandando un mensaje al +54 011-3777-7784.
