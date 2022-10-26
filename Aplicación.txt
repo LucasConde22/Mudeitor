@@ -3,3 +3,5 @@ https://drive.google.com/file/d/1cJLuYD6JhbA-pUIzwYXGucmHT0mFDkf-/view
 
 Código:
 https://drive.google.com/file/d/1HqEEKg9CHFwVUN3qCfTn3Fy5F-xGLcUn/view?usp=sharing
+
+No subimos el código de la app a GitHub porque superariamos el límite de almacenamiento.
