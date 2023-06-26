@@ -15,3 +15,7 @@ Aplicación para dispositivos Android que permite traducir lengua de señas a au
  
  ## ¿Como podés contactarnos?
   Si querés contactarnos podés hacerlo mandando un mail a mudeitor.app@gmail.com o llamando / mandando un mensaje al +54 011-3777-7784.
+  
+## Retorno
+ Decidimos abandonar este proyecto en noviembre de 2022 debido a la finalización de las clases. Sin embargo, estoy emocionado de retomar su desarrollo  con el objetivo de competir en el Solve for Tomorrow 2023.
+  
